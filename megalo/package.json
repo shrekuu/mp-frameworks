@@ -1,0 +1,35 @@
+{
+  "name": "megalo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:wechat": "megalo-cli-service build",
+    "build:alipay": "megalo-cli-service build --platform alipay",
+    "build:swan": "megalo-cli-service build --platform swan",
+    "build:toutiao": "megalo-cli-service build --platform toutiao",
+    "dev:alipay": "megalo-cli-service serve --platform alipay",
+    "dev:swan": "megalo-cli-service serve --platform swan",
+    "dev:wechat": "megalo-cli-service serve",
+    "dev:toutiao": "megalo-cli-service serve --platform toutiao"
+  },
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@megalo/app"
+    ]
+  },
+  "devDependencies": {
+    "@megalo/babel-preset-app": "latest",
+    "@megalo/cli-service": "latest",
+    "@megalo/target": "latest",
+    "@megalo/template-compiler": "latest",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0"
+  },
+  "dependencies": {
+    "@megalo/api": "latest",
+    "@megalo/vhtml-plugin": "latest",
+    "megalo": "latest",
+    "octoparse": "^0.4.2"
+  }
+}

@@ -1,0 +1,32 @@
+<script>
+import {wxa, App} from '@wxa/core';
+import {wxaRedux, combineReducers} from '@wxa/redux';
+import userInfo from './services/reducers/userInfo.js';
+import logger from 'redux-logger';
+
+const middlewares = 'WXA_ENV' !== 'release' ? [logger] : [];
+
+wxa.use(wxaRedux, {reducers: combineReducers({userInfo})});
+
+@App
+export default class Main {
+    globalData = {
+        userInfo: 'Genuifx',
+    }
+}
+</script>
+
+<config>
+{
+    "pages": [
+        "pages/index"
+    ]
+}
+</config>
+
+<style lang="scss">
+page {
+    width: 100%;
+    height: 100%;
+}
+</style>

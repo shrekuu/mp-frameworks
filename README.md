@@ -22,9 +22,9 @@
 
 有官方的 kbone 里有 Vue/React/Preact/omi 风格的.
 
-最终我们代码风格, 开发效率, 还有未来是否会继续维护下去决定给大家推荐 uni-app 和 Taro 这两个.
+综合考虑代码风格, 开发效率, 还有未来是否会继续维护下去决定给大家推荐 uni-app 和 Taro 这两个.
 
-uni-app 差不多完全是 Vue 的开发风格. Taro 也基本完全是 React 的风格. 支持的写法还是很多. 
+uni-app 差不多完全是 Vue 的开发风格. Taro 也基本完全是 React 的风格. 支持的写法还是很多.
 
 如 uni-app 支持 Vue 里的过滤器. Taro 跟 Remax 相比虽然不是完整的 React 开发风格但却有更快的编译速度.
 

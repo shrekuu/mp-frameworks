@@ -1,7 +1,7 @@
 # 微信小程序开发框架对比与选择
 
-> 这里的 WePY 是 2 Alpha 版本, Taro 是 2.0.1 版本. 
-> PPT 链接: <a href="https://pan.baidu.com/s/1oXHd7GcNyjmuODe3nIQomA" target="_blank">https://pan.baidu.com/s/1oXHd7GcNyjmuODe3nIQomA</a> 提取码: t3pv
+> 这里的 WePY 是 2 Alpha 版本, Taro 是 2.0.1 版本
+> PPT [bond-小程序框架对比与选择.pptx](bond-小程序框架对比与选择.pptx)
 
 ## 推荐 uni-app 和 Taro 这两个
 

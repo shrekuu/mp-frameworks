@@ -3,7 +3,13 @@
 > 这里的 WePY 是 2 Alpha 版本, Taro 是 2.0.1 版本
 > PPT [bond-小程序框架对比与选择.pptx](bond-小程序框架对比与选择.pptx)
 
-## 推荐 uni-app 和 Taro 这两个
+## 2022-04 推荐直接使用 Taro, 特别喜欢 React 还可以使用 Remax
+
+- uni-app 导致我花过多时间都在解决框架的问题, 还解决不了, 还在使用 node-sass 安装成本过高, 我这种伸手党要用 VS Code 写代码，我要本地完整编译，我要 Dart 版的那个 Sass, 所有的依赖都要尽可能的新, 要愉快地使用 Vue 3, 要比我的写的文档还要好的文档, 要真正的开源.
+- 我只在公司项目上用过 WePY/mpvue/Taro, 发现 Remax 的 React 支持程度跟 Taro 差不多, 都足够好. 但 Remax 的编译在监听时似乎还是整体编译, 编译工作量大, 电脑慢的话要比 Taro 等更久一些.
+- 我加了一个新的对比, 可以看看几个框架的可能的写法: [miniprogram-frameworks-2022](https://github.com/shrekuu/miniprogram-frameworks-2022)
+
+## 2020-01 推荐 uni-app 和 Taro 这两个
 
 选这两个主要是看用的人多, 长期维护下去的可能性较大, 更靠近 Vue/React 的开发风格.
 
